@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block>
+  <name>keeloq_dec_bb</name>
+  <key>nada_test_keeloq_dec_bb</key>
+  <category>[nada_test]</category>
+  <import>import nada_test</import>
+  <make>nada_test.keeloq_dec_bb()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>
